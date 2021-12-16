@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "",
+    "slug": "",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo_firexpo.png",
+    "splash": {
+      "image": "./assets/logo_firexpo_splashscreen.png",
+      "backgroundColor": "#333747"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "icon": "./assets/icon.png",
+      "supportsTablet": true,
+      "bundleIdentifier": ""
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo_firexpo.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/logo_firexpo.png",
+      "config": {
+        "firebase": {
+          "apiKey": "",
+          "authDomain": "",
+          "databaseURL": "",
+          "projectId": "",
+          "storageBucket": "",
+          "messagingSenderId": "",
+          "appId": "",
+          "measurementId": ""
+        }
+      }
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/logo_firexpo.png",
+          "color": "#ffffff",
+          "sounds": [
+            "./local/assets/notification-sound.wav",
+            "./local/assets/notification-sound-other.wav"
+          ],
+          "mode": "production"
+        }
+      ]
+    ]
+  }
+}
